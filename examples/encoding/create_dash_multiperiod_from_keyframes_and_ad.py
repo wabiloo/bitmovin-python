@@ -1,4 +1,4 @@
-import datetime
+import datetime, copy
 
 from bitmovin import Bitmovin, Encoding, HTTPSInput, H264CodecConfiguration, \
     AACCodecConfiguration, H264Profile, StreamInput, SelectionMode, Stream, EncodingOutput, ACLEntry, ACLPermission, \
